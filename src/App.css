@@ -1,0 +1,34 @@
+.div1 {
+  background-color: yellow;
+}
+
+body {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 3px solid #000000;
+  border-color: rgb(0, 0, 0);
+  height: 700px;
+  width: 500px;
+  margin-left: 500px;
+}
+
+.form label {
+  margin-left: 100px;
+  margin-bottom: 10px; /* Adjust the value as needed */
+  display: block;
+}
+
+/* Add space between checkbox/radio and its label */
+.form input[type="checkbox"],
+.form input[type="radio"] {
+  margin-right: 5px; /* Adjust the value as needed */
+}
+
+/* Add space between textarea and its label */
+.form textarea {
+  margin-bottom: 10px; /* Adjust the value as needed */
+  display: block;
+}
+
